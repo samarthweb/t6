@@ -1,5 +1,7 @@
 
 
+// Name: Kush
+//St: 1004006218
 var express = require("express");
 var path = require("path");
 const app = express();
@@ -31,17 +33,13 @@ app.post("/register",(req, res) => {
 
 app.post("/signIn",(req, res) => {
   final.signIn().then(() =>{
-    res.send(data.email + 'Sign in successfully. <br> <a href ="/home">Go home</a>');
+   // res.send("");
+
+  
   }).catch(err => res.render({message: "Error: Email or Password cannot complete"}));
 
 })
-
-app.get("*", (req, res)=>{
-  res.status(404).send("Error 404: page not found.")
-});
-
-
- app.use((req, res) => {
+  app.use((req, res) => {
     res.status(404).send("Page Not Found");
   });
 

@@ -1,5 +1,5 @@
 const fs = require('fs');
-var db ='mongodb+srv://sspatel65:sspatel65@senecaweb.te7r9s4.mongodb.net/?retryWrites=true&w=majority';
+var db ='mongodb+srv://Kush:Beats121@senecaweb.xsqhlpv.mongodb.net/?retryWrites=true&w=majority';
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 const bcrypt = require('bcryptjs');
