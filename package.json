@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.8.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "trial-t5",
+  "version": "1.0.0",
+  "main": "data_prep.js",
+  "author": "Samarth",
+  "license": "ISC",
+  "description": ""
+}
